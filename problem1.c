@@ -1,18 +1,8 @@
-<<<<<<< HEAD:problem1.c
 //Sum of all the multiples of 3 or 5 below a certain number.
-=======
-
->>>>>>> 70f34d7dc9d7df7c47f7e7bd3600e8654fd89e98:3or5.c
 
 #include <stdio.h>
 #include <stdlib.h>
 
-<<<<<<< HEAD:problem1.c
-=======
-//Find the sum of all the multiples of 3 or 5 below a certain number. (specific example from Project Euler)
-
-
->>>>>>> 70f34d7dc9d7df7c47f7e7bd3600e8654fd89e98:3or5.c
 int main(int argc, string argv[])
 {
     if(argc != 2)
