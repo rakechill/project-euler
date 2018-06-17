@@ -23,5 +23,5 @@ def factors_of_palindromes(palindromes, range_min, range_max):
     for palindrome in palindromes:
         for i in range(range_min, range_max + 1):
             if palindrome % i == 0 and palindrome / i >= range_min and palindrome / i <= range_max:
-                factors.append([palindrome, i, palindrome // i])
-    return factors[len(factors) - 1][0]
+                factors.append(palindrome)
+    return factors[len(factors) - 1]
