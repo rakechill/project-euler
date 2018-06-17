@@ -5,9 +5,7 @@ def digit_ranges(digits):
     """Takes in amount of digits and gives ranges for specified digits"""
     str_max = ''
     range_min = pow(10, digits - 1)
-    for i in range(digits):
-        str_max += '1'
-    range_max = 9 * int(str_max)
+    range_max = pow(10, digits) - 1
     mult_min, mult_max = pow(range_min, 2), pow(range_max, 2)
     return find_palindromes(range_min, range_max, mult_min, mult_max)
 
