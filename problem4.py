@@ -3,7 +3,6 @@
 #1 figure out max and min's of your digits.
 def digit_ranges(digits):
     """Takes in amount of digits and gives ranges for specified digits"""
-    str_max = ''
     range_min = pow(10, digits - 1)
     range_max = pow(10, digits) - 1
     mult_min, mult_max = pow(range_min, 2), pow(range_max, 2)
